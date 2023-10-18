@@ -1,24 +1,21 @@
-body {
-    display: flex;
-    flex-wrap: wrap;
+countdown{
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    flex-wrap:wrap ;
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    }
+
+body{
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 10px;
-    background-color: rgba(28, 92, 145, 0.778);
-    box-sizing: border-box;
-
-}
-
-div {
-    font-size: 36px;
-    font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding : 30px;
-    border-radius: 30px;
-    color: white;
-    border: 4px solid rgb(248, 245, 245);
-    font-style: oblique;
 }
-
+button{
+    top: 20px;
+    right: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
